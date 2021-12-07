@@ -12,6 +12,7 @@
     <mvc:annotation-driven/>
     <context:component-scan base-package="edu.soft2"/>
     <mvc:resources mapping="/statics/**" location="/statics/"/>
+    <mvc:resources mapping="/images/**" location="WEB-INF/images/"/>
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
